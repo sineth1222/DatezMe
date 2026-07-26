@@ -115,14 +115,14 @@ export default function InstallAppSection() {
                   <Check size={14} />
                 </span>
                 <p>
-                  Tap <strong>Add</strong> — datezMe now opens full-screen from
+                  Tap <strong>Add</strong> — DatezMe now opens full-screen from
                   your home screen, just like a normal app.
                 </p>
               </div>
             </div>
 
             <p className="mt-4 font-scriptnew text-xs text-wine/50">
-              This is an Apple/Safari limitation, not a datezMe one iOS doesn't
+              This is an Apple/Safari limitation, not a DatezMe one iOS doesn't
               allow websites to trigger the install prompt directly, so this is
               the official way to install any web app on iPhone.
             </p>
