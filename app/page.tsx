@@ -13,7 +13,7 @@ export default function LandingPage() {
       {/* Hero */}
       <section className="relative overflow-hidden bg-wine-glow px-4 py-16 sm:py-20 md:py-28">
         <FloatingHearts />
-        <FlyingDoves />
+        {/*<FlyingDoves />*/}
         <FallingPetals />
         <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center gap-10 text-center md:flex-row md:gap-14 md:text-left">
           <HeroHeart />
