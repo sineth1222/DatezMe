@@ -182,6 +182,14 @@ export default function InvitePage() {
       <FloatingHearts />
       <MusicPlayer src={invitation.music_url} />
 
+      {invitation.has_watermark && (
+        <div className="pointer-events-none fixed inset-x-0 bottom-4 z-40 flex justify-center">
+          <span className="rounded-full bg-black/20 px-3 py-1 text-[10px] tracking-wide text-white/90 backdrop-blur-sm">
+            Made with 💗 on DatezMe
+          </span>
+        </div>
+      )}
+
       <div className="relative z-10 mx-auto max-w-lg">
         <AnimatePresence mode="wait">
           {/* ── Background logo watermark ── */}
