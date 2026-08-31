@@ -3,6 +3,9 @@
 
 drop policy if exists "Public can view invitation by slug" on public.invitations;
 
+alter table invitations
+  add column if not exists has_watermark boolean not null default true;
+
 create policy "Public can view invitation by slug"
   on public.invitations for select
   to anon

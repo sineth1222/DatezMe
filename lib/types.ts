@@ -32,4 +32,5 @@ export interface InvitationRecord {
   secret_message: string | null;
   memory_photos: string[];
   status: "sent" | "opened" | "accepted";
+  has_watermark: boolean;
 }

@@ -70,7 +70,6 @@ This is the part people usually get stuck on — here's the exact order:
    Google's Authorized origins/redirect URIs and Supabase's Site
    URL/Redirect URLs, then in Google's OAuth consent screen click
    **Publish App** so it's not stuck in testing mode for outside users.
-   {"web":{"client_id":"1010258931080-vkbcm7rhj1m8d0vcnugjdjbbk4q47dd0.apps.googleusercontent.com","project_id":"hithalink","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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","redirect_uris":["https://vmwewomxjbydgtdfyxjz.supabase.co/auth/v1/callback"],"javascript_origins":["http://localhost:3000"]}}
 
 ## 3. Set up ImageKit (photo + music uploads)
 
